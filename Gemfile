@@ -45,7 +45,6 @@ gem "webrick"
 
 group :jekyll_plugins do
   gem "jeckyll-remote-theme"
-  gem "jecky-default-layout"
   gem "jekyll-default-layout"
   gem "jekyll-feed"
   gem "jekyll-optional-front-matter"
