@@ -10,7 +10,8 @@ source "https://rubygems.org"
 # Happy Jekylling!
 gem "jekyll", "~> 4.3"
 
-gem "jekyll-theme-hydejack", "~> 9.1"
+#gem "jekyll-theme-hydejack", "~> 9.1"
+gem "jeckyll-remote-theme"
 
 # If you are part of the ["Customers" team](https://github.com/orgs/hydecorp/teams/pro-customers), 
 # you can fetch the theme from a private repository. 
@@ -40,6 +41,10 @@ gem "webrick"
 
 # Uncomment when using the `--lsi` option for `jekyll build`
 # gem "classifier-reborn"
+
+group : jekyll_plugins do
+  gem "jeckyll-remote-theme"
+  gem "jecky-default-layout"
 
 group :jekyll_plugins do
   gem "jekyll-default-layout"
