@@ -42,11 +42,10 @@ gem "webrick"
 # Uncomment when using the `--lsi` option for `jekyll build`
 # gem "classifier-reborn"
 
+
 group :jekyll_plugins do
   gem "jeckyll-remote-theme"
   gem "jecky-default-layout"
-
-group :jekyll_plugins do
   gem "jekyll-default-layout"
   gem "jekyll-feed"
   gem "jekyll-optional-front-matter"
